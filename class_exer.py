@@ -1,6 +1,7 @@
 #class declaration
 class Jungle:
-    pass
+    def welcomeMessage(self):
+        print("Welcome to the Jungle")
 
 j= Jungle() #create object of class Jungle
-print(j)
+print(j.welcomeMessage()) #welcome to the Jungle
