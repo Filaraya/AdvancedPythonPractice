@@ -5,7 +5,7 @@ class Jungle:
         self.visitorName = name
         
     def welcomeMessage(self):
-        print("Welcome to the Jungle")
+        print("Hello %s, Welcome to the Jungle" % self.visitorName)
 
 j= Jungle() #create object of class Jungle
 print(j.welcomeMessage()) #welcome to the Jungle
