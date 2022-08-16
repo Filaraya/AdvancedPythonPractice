@@ -18,12 +18,18 @@ class Dog: #declaration of dog class
         print(f"{self.name} is making sound")
         
     def infoDog(self):
-        print(f"Hello my dog is {self.name} and {self.age} years old")
+        print(f"The dog's name is {self.name} and {self.age} years old")
         
     
 
 
-s= Dog("Simba",4) #declaration of object
-print(s.infoDog())
-print(s.play())
-print(s.sound())
+myDog= Dog("Simba",4) #declaration of object
+yourDog= Dog("Bob",6)
+print(myDog.infoDog())
+print(myDog.play())
+print(myDog.sound())
+
+print("")
+print(yourDog.infoDog())
+print(yourDog.play())
+print(yourDog.sound())
