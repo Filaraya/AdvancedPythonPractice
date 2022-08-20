@@ -45,7 +45,10 @@ myCar.incrimental_odometer(10)
 myCar.read_odometer()
 
 yourCar= Car("Toyota", "RAV4",2020)
-print (yourCar.get_description())
+print(yourCar.get_description())
+
+myUsedCar = Car("Sabaru","outback",2017)
+print(myUsedCar.get_description())
 
 
 
