@@ -28,6 +28,14 @@ class Car:
         """adding the miles to the orginal reading"""
         self.odometer += miles
         
+class ElectricCar(Car):
+    """Represent aspects of a car, specific to electric vehicles."""
+    def __init__(self, make, model, year):
+        """initialize atributes of the parent class."""
+        super().__init__(make, model, year)
+        
+
+        
     """
     def car_color(self):
         #info about car's color
@@ -49,6 +57,11 @@ print(yourCar.get_description())
 
 myUsedCar = Car("Sabaru","outback",2017)
 print(myUsedCar.get_description())
+
+myTesla = ElectricCar("Tesla", "Model-s", 2019)
+print(myTesla.get_description())
+
+
 
 
 
