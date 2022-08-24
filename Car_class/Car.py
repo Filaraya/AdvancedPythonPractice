@@ -38,14 +38,7 @@ class ElectricCar(Car):
     def describe_battery(self):
         """print a statement describing the battery size."""
         print(f"This car has a {self.battery_size}-kwh battery.")
-        
-
-        
-    """
-    def car_color(self):
-        #info about car's color
-        print (f"the car color is {self.color} color")
-        """
+   
     
 myCar = Car("Acura", "TL", "2003")
 print (myCar.get_description())
