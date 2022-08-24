@@ -38,7 +38,11 @@ class ElectricCar(Car):
     def describe_battery(self):
         """print a statement describing the battery size."""
         print(f"This car has a {self.battery_size}-kwh battery.")
+<<<<<<< HEAD
    
+=======
+       
+>>>>>>> b76f515caa342820481219122d6297bcf1c1f9cb
     
 myCar = Car("Acura", "TL", "2003")
 print (myCar.get_description())
