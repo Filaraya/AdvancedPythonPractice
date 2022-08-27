@@ -1,1 +1,2 @@
-This is my excercise for Advanced Python.begin with the Object oriented programming to advanced Python framework.
+This is my excercise for Advanced Python.
+begin with the Object oriented programming to advanced Python with Python framework.
