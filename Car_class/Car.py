@@ -7,7 +7,7 @@ class Car:
         self.model = model
         self.year = year
         self.odometer = 0 #setting a default value of an attribute
-        #self.color = " "
+        
     def get_description(self):
         """Return the information of car"""
         info= f"this car is {self.make}, {self.model}, on {self.year}"
