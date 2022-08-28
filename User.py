@@ -22,7 +22,8 @@ class User:
 
     def reset_login_attempt(self):
         """reset the value of attempt to 0"""
-        self.login_attempts == 0
+        self.login_attempts = 0
+
 
 
 
@@ -30,6 +31,11 @@ myUser = User("Filmon", "Araya")
 print(myUser.describe_user())
 myUser.increment_login_attempts()
 myUser.increment_login_attempts()
+myUser.increment_login_attempts()
+myUser.increment_login_attempts()
+myUser.increment_login_attempts()
+myUser.increment_login_attempts()
 myUser.greet_user()
 myUser.reset_login_attempt()
 myUser.greet_user()
+
