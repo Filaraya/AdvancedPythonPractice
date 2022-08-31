@@ -18,7 +18,7 @@ class User:
 
     def increment_login_attempts(self):
         """increment login attempts"""
-        self.login_attempts += 1 
+        self.login_attempts += 1
 
     def reset_login_attempt(self):
         """reset the value of attempt to 0"""

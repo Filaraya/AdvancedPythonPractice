@@ -6,7 +6,7 @@ class Restaurant:
         """two  attributes a restaurant name and cuisine type"""
         self.restaurantName = name
         self.cuisinetype = cuisinetype
-        self.number_served = 0
+        self.number_served = 0 #default value 0
 
     def describe_restaurant(self):
         """describes restaurant"""
