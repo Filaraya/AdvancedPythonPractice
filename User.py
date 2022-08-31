@@ -5,12 +5,12 @@ class User:
         """stores first and last name"""
         self.first_name = first_name
         self.last_name = last_name
-        self.login_attempts = 0
+        self.login_attempts = 0  #not added to self. default value 0.
 
     def describe_user(self):
         """describes user information"""
         full_name = f"{self.first_name} {self.last_name}"
-        return full_name.title()
+        return full_name.title() #title method prints clearly
 
     def greet_user(self):
         """greeting user"""
@@ -18,7 +18,7 @@ class User:
 
     def increment_login_attempts(self):
         """increment login attempts"""
-        self.login_attempts += 1
+        self.login_attempts += 1 
 
     def reset_login_attempt(self):
         """reset the value of attempt to 0"""
