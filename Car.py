@@ -25,12 +25,12 @@ class Car:
         self.odometer_reading += miles
 
 
-
-
-
 myCar = Car("Acura", "TL", 2003)
 print(myCar.get_descriptive_name())
 myCar.odometer_reading = 23 #updating the odometer reading
 myCar.update_odometer(50)
 myCar.incrimental_odometer(10)
 myCar.read_odometer()
+yourCar = Car("Toyota","RAV4",2018)
+yourCar.get_descriptive_name()
+
