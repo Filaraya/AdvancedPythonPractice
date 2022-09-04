@@ -33,8 +33,8 @@ myRestaurant = Restaurant("fila", "traditional")
 myRestaurant.set_number_served(30) #set the number of served
 myRestaurant.increment_number_served(10) #added the value
 myRestaurant.describe_restaurant()
-yourRestaurant("Asmara","Habesha")
-yourRestaurant.describe_restaurant() 
+yourRestaurant("Asmara","Habesha") #adding new object
+yourRestaurant.describe_restaurant()  
 
 
 myRestaurant.open_restaurant("op")
