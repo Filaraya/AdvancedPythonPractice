@@ -1,4 +1,4 @@
-# Restaurant
+
 class Restaurant:
     """class describes restaurant"""
 
