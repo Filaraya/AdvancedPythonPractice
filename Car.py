@@ -42,3 +42,9 @@ myCar.odometer_reading = 23 #updating the odometer reading
 myCar.update_odometer(50)
 myCar.incrimental_odometer(10)
 myCar.read_odometer()
+yourCar = Car("Toyota","corolla",2020)
+yourCar.odometer_reading = 23 #updating the odometer reading
+yourCar.update_odometer(50)
+yourCar.incrimental_odometer(10)
+yourCar.read_odometer()
+
