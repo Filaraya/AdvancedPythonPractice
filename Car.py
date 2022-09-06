@@ -30,8 +30,11 @@ class ElectricCar(Car):
  
     def __init__(self, make, model, year):
         """Initialize attributes of the parent class."""
-        uper().__init__(make, model, year) ymy_tesla = ElectricCar('tesla', 'model s', 2016)
-        print(my_tesla.get_descriptive_name())
+        super().__init__(make, model, year) 
+        self.battery_size = 75
+
+
+
 
 
 
@@ -47,4 +50,9 @@ yourCar.odometer_reading = 23 #updating the odometer reading
 yourCar.update_odometer(50)
 yourCar.incrimental_odometer(10)
 yourCar.read_odometer()
+
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+print(my_tesla.get_descriptive_name())
+my_tesla.describe_battery()
+
 
