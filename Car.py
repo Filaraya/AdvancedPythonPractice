@@ -35,10 +35,6 @@ class ElectricCar(Car):
 
 
 
-
-
-
-
 myCar = Car("Acura", "TL", 2003)
 print(myCar.get_descriptive_name())
 myCar.odometer_reading = 23 #updating the odometer reading
