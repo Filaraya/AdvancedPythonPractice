@@ -47,8 +47,8 @@ yourCar.update_odometer(50)
 yourCar.incrimental_odometer(10)
 yourCar.read_odometer()
 
-my_tesla = ElectricCar('tesla', 'model s', 2016)
-print(my_tesla.get_descriptive_name())
+my_tesla = ElectricCar('tesla', 'model s', 2016)#creating new object 
+print(my_tesla.get_descriptive_name())#getting from the main object Car
 my_tesla.describe_battery()
 
 
