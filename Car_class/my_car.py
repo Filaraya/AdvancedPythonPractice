@@ -1,4 +1,4 @@
-from car import Car
+from car import Car #import from car module 
 """to import from my Car model"""
 my_new_car = Car('audi,'a4',2017)
 print(my_new_car.get_descriptive_name())
